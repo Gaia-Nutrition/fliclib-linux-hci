@@ -23,22 +23,24 @@ function listenToButton(bdAddr) {
 	cc.on("buttonSingleOrDoubleClick", function(clickType, wasQueued, timeDiff) {
 		if(clickType == "ButtonSingleClick"){
 			if(displayState == 1){
+				console.log('turning OFF screen');
 				cmd.get(
-					'ls',
+					'vcgencmd display_power 0',
 					function(data){
-						console.log('would turn OFF the screen now!. And the current dir contains these files :\n\n',data);
-						displayState = 0;
+						console.log(data);
 					}
 				);
+				displayState = 0;
 			}
 			else {
+				console.log('turning ON screen');
 				cmd.get(
-					'ls',
+					'vcgencmd display_power 1',
 					function(data){
-						console.log('would turn ON the screen now!. And the current dir contains these files :\n\n',data);
-						displayState = 1;
+						console.log(data);
 					}
 				);
+				displayState = 1;
 			}
 			console.log('SingleClick Detected');
 		}

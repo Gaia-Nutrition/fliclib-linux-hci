@@ -5,6 +5,8 @@
 
 
 var fliclib = require("./fliclibNodeJs");
+var cmd=require('node-cmd');
+
 var FlicClient = fliclib.FlicClient;
 var FlicConnectionChannel = fliclib.FlicConnectionChannel;
 var FlicScanner = fliclib.FlicScanner;

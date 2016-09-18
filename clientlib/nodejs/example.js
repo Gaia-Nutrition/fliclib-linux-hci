@@ -15,6 +15,9 @@ function listenToButton(bdAddr) {
 	var cc = new FlicConnectionChannel(bdAddr);
 	client.addConnectionChannel(cc);
 	cc.on("buttonUpOrDown", function(clickType, wasQueued, timeDiff) {
+		if(clickType == client.ButtonSingleClick){
+			console.log('SingleClickDetected');
+		}
 		console.log(bdAddr + " " + clickType + " " + (wasQueued ? "wasQueued" : "notQueued") + " " + timeDiff + " seconds ago");
 	});
 	cc.on("connectionStatusChanged", function(connectionStatus, disconnectReason) {

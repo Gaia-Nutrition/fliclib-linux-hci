@@ -18,7 +18,7 @@ function listenToButton(bdAddr) {
 		console.log(bdAddr + " " + clickType + " " + (wasQueued ? "wasQueued" : "notQueued") + " " + timeDiff + " seconds ago");
 	});
 	cc.on("buttonSingleOrDoubleClick", function(clickType, wasQueued, timeDiff) {
-		if(clickType == client.ButtonSingleClick){
+		if(clickType == "ButtonSingleClick"){
 			console.log('SingleClick Detected');
 		}
 		console.log(bdAddr + " " + clickType + " " + (wasQueued ? "wasQueued" : "notQueued") + " " + timeDiff + " seconds ago");

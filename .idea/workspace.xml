@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab4b69e-4bb0-471c-a673-72a0592fa0c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientlib/nodejs/example.js" afterPath="$PROJECT_DIR$/clientlib/nodejs/example.js" />
     </list>
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -42,8 +42,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clientlib/nodejs/example.js" />
         <option value="$PROJECT_DIR$/clientlib/nodejs/.gitignore" />
+        <option value="$PROJECT_DIR$/clientlib/nodejs/example.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -209,19 +210,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474195156181</updated>
-      <workItem from="1474195157622" duration="891000" />
+      <workItem from="1474195157622" duration="1067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="891000" />
+    <option name="totallyTimeSpent" value="1067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -433,22 +434,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clientlib/nodejs/example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
           <folding>
-            <marker date="1474196717000" expanded="true" signature="0:164" ph="/*...*/" />
-            <marker date="1474196717000" expanded="true" signature="426:1203" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="573:700" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="780:996" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="825:870" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1078:1199" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1237:1407" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1308:1403" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1366:1398" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1471:1535" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1587:1666" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1705:1759" ph="{...}" />
-            <marker date="1474196717000" expanded="true" signature="1801:1856" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="0:164" ph="/*...*/" />
+            <marker date="1474196915000" expanded="true" signature="426:1198" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="573:700" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="780:991" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="820:865" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1073:1194" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1232:1402" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1303:1398" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1361:1393" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1466:1530" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1582:1661" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1700:1754" ph="{...}" />
+            <marker date="1474196915000" expanded="true" signature="1796:1851" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -456,7 +457,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
